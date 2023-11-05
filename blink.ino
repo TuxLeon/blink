@@ -13,7 +13,7 @@ void loop()
           Serial.println(inputString);
    }
    digitalWrite(LED_BUILTIN, HIGH);
-   delay(500);
+   delay(200);
    digitalWrite(LED_BUILTIN, LOW);
-   delay(500);
+   delay(200);
 }
